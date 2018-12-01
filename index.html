@@ -11,11 +11,91 @@
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
+    <div class="jumbotron p-3 mb-2 bg-dark text-white">
+        <h1 class="text-center display-3">CRYSTAL COLLECTOR GAME</h1>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card text-center bg-dark">
+                    <div class="card-heading">
+                        <br>
+                        <h3 class="card-title display-4 text-center text-white">INSTRUCTIONS</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-white font-weight-bold">
+                            You will be given a random number at the start of the game.
+                        </p>
+                        <p class="text-white font-weight-bold">
+                            There are four crystals below. By clicking on a crystal you will add a specific amount of
+                            points to your total score.
+                        </p>
+                        <p class="text-white font-weight-bold">
+                            You win the game by matching your total score to random number, you lose the game if your
+                            total score goes above the random number.
+                        </p>
+                        <p class="text-white font-weight-bold">
+                            The value of each crystal is hidden from you until you click on it.
+                        </p>
+                        <p class="text-white font-weight-bold">
+                            Each time when the game starts, the game will change the values of each crystal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <br>
+            <div class="col-md-6">
+                    <div class="row">
+                            <div class="col-md-5">
+                                <p class="text-white goal bg-dark font-weight-bold text-center">
+                                    GOAL NUMBER:
+                                </p>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5">
+                                    <p class="text-white goal bg-dark font-weight-bold text-center">
+                                        COUNTER:
+                                    </p>
+                                </div>
+                        </div>
+                <div class="row">
+                    <div class="col-md-5 target-number text-center text-white bg-dark">
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 win-lose-counter text-white bg-dark text-center">
+                    </div>
+                </div>
 
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12 crystal-images">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-white total bg-dark font-weight-bold">
+                            TOTAL SCORE:
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11 score-number text-white bg-dark text-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
