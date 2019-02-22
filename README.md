@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal-Collector-Game
 App dynamically updates the HTML pages with the jQuery library.
 
 The player will have to guess the answer based on random numbers which are part of each crystal.
